@@ -65,8 +65,11 @@ button{
 
 @media screen and (max-width: 800px) {
     .first-main{
+        /* background-color: black; */
+        padding: 50% 20%;
+    }
+    body{
         background-color: black;
-        padding: 10% 5%;
     }
     .container{
         background-color: hsl(213, 19%, 18%);
