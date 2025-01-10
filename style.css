@@ -1,0 +1,102 @@
+body{
+    overflow-y: hidden;
+    font-size: 15px;
+}
+.first-main{
+    background-color: black;
+    padding: 11% 35%;
+   
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    width: 70%;
+    padding: 30px;
+}
+p{
+    color: grey;
+}
+h1{
+    color: white;
+}
+.star{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+button{
+    border-radius: 30px;
+    width: 93%;
+    padding: 10px;
+    background-color: rgb(219, 85, 37);
+    margin-top: 25px;
+    border-color: rgb(219, 85, 37);
+}
+
+
+.second-main{
+    background-color: black;
+    padding: 11% 35%;
+    display: none;
+}
+
+.second-container{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+}
+
+.selected {
+    background-color: red; /* Highlight color */
+    color: white; /* Optional: Change text color */
+}
+
+@media screen and (max-width: 800px) {
+    .first-main{
+        background-color: black;
+        padding: 10% 5%;
+    }
+    .container{
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 20px;
+        width: 60%;
+        padding: 10px;
+    }
+    .second-main{
+        background-color: black;
+        padding: 10% 5%;
+        display: none;
+    }
+    .second-container{
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 30px;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+    }
+    .star{
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: hsl(216, 12%, 8%);
+        text-align: center;
+        padding: 5px;
+        color: white;
+    }
+   h1{
+        font-size: 1.5rem;
+    }
+}
+  
